@@ -1,0 +1,53 @@
+:root {
+  /*Custom variables and metadata set*/
+	--custom-orange: #ffab5c;
+  }
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #191919;
+    color: #fff9f2;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+.header {
+    background-color: #83254f;
+    text-align: center;
+    color: #fff9f2;
+    padding: 20px;
+  }
+  .topnav{
+    list-style-type: none;
+    text-align: center;
+    background-color: #fff9f2;
+    margin: 0;
+    padding: 0;
+  }
+  .topnav a{
+    display: inline-block;
+    background-color: #fff9f2;
+    text-decoration: none;
+    color: #191919;
+    font-size: 20px;
+    padding: 14px 20px;
+  }
+  .content{
+    color: #fff9f2;
+    text-align: center;
+    padding: 10px;
+  }
+  .footer{
+    background-color: var(--custom-orange);
+    text-align: center;
+    padding: 10px;
+  }
+  .footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: #191919;
+  }
+  Iframe{
+    border: 0;
+    
+  }
