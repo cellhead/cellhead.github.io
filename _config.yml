@@ -1,3 +1,4 @@
 title: testing title
 description: testing description
 include: /_includes, /_posts
+markdown: GFM
