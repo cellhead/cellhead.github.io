@@ -9,9 +9,7 @@
         <link rel="stylesheet" type="text/css" href="_includes\style.css">
     </head>
     <!--This is where header will go-->
-    <div class="header-container">
-        <iframe class="responsive-iframe" src="/_includes/header.html" title="header"></iframe>
-    </div>
+    {% include header.html %}
     <!--This is the main content block-->
     <div class="content">
         <H1>
@@ -20,5 +18,5 @@
         </H1>
     </div>
     <!--This is where footer will go-->
-    <iframe src="/_includes/footer.html" title="footer" height="89" width="100%"></iframe>
+    {% include footer.html %}
 </html>
