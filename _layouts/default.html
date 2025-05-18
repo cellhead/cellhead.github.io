@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--For title, page config basics, and links to stylesheets and scripts-->
+        <Title>{{ page.title }}</Title>
+        <!--Boilerplate sclaing with device text from w3-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Fetches Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="../_includes\style.css">
+    </head>
+    <header>
+        {% include header.html %}
+    </header>
+    <body>
+        <h1>{{ page.title }}</h1>
+        <section>
+            {{ content }}
+        </section>
+        <footer>
+            {% include footer.html %}
+        </footer>
+    </body>
+</html>
