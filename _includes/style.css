@@ -44,7 +44,7 @@ body{
     padding: 10px;
   }
 .footer{
-    background-color: var(--custom-orange);
+    /* background-color: var(--cohost-orange); */
     text-align: center;
     padding: 10px;
   }
@@ -73,4 +73,9 @@ Iframe{
   width: 100%;
   height: 100%;
   Border: 0;
+}
+.itemcontainer{
+  color: #fff9f2;
+  padding-top: 2vmin;
+  padding-bottom: 1vmin;
 }

@@ -7,18 +7,41 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Fetches Stylesheet-->
         <link rel="stylesheet" type="text/css" href="_includes\style.css">
+        <script src="jquery-3.7.1.js"></script>
+        <script>
+            $(function(){
+            $("#header").load("_includes/header.html");
+            $("#footer").load("_includes/footer.html");
+            });
+        </script>
     </head>
-    <div class="header-container">
+    <!-- header -->
+    <!-- <div class="header-container">
         <iframe class="responsive-iframe" src="_includes/header.html" title="header"></iframe>
-    </div>
-    <div class="content">
-        <h1>
-            Testing Portfolio
-        </h1>
-        <!--Youtube Embed-->
-        <div class="yt-container">
-            <iframe class="responsive-iframe" src="https://www.youtube-nocookie.com/embed/aIl6eYGGj3g?si=rSgAqd0Nv_FTJocG" title="Erin Boles Aniamtion Portfolio" allow="autoplay"></iframe>
+    </div> -->
+    <p>test</p>
+    <div id="header"></div>
+    <!-- Content -->
+    <div class="Content">
+        <h2>
+            Erin Boles Character Animation Portfolio
+        </h2>
+        <!-- Spring 2025 -->
+        <div class="itemcontainer">
+            <h3>Spring 2025</h3>
+            <div class="yt-container">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/aIl6eYGGj3g?si=Zq-oUiF4A-RIoLS9" title="Erin Boles Aniamtion Reel Spring 2025" allow="autoplay"></iframe>
+            </div>
         </div>
-    </div>
-    <iframe src="_includes/footer.html" title="footer" height="171" width="100%"></iframe>
+        <!-- Winter 2022 -->
+        <!-- <div class="itemcontainer">
+            <h3>Winter 2022</h3>
+            <div class="yt-container">
+                <iframe class="responsive-iframe" src="https://www.youtube.com/embed/WKt6kvxkVZg?si=NPSEwU8n_pHEQoP1" title="Erin Boles Animation Reel December 2022" aallow="autoplay"></iframe>
+            </div>
+        </div>
+    </div> -->
+    <!-- Footer -->
+     <div id="footer"></div>
+    <!-- <iframe src="_includes/footer.html" title="footer" height="171" width="100%"></iframe> -->
 </html>
