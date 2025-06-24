@@ -7,13 +7,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!--Fetches Stylesheet-->
         <link rel="stylesheet" type="text/css" href="_includes\style.css">
+        <!-- Jquerry stuff, WORKING FINALLY DON'T TOUCH -->
+        <script src="jquery-3.7.1.js"></script>
+        <script>
+            $(function(){
+            $("#header").load("_includes/header.html");
+            $("#footer").load("_includes/footer.html");
+            });
+        </script>
     </head>
     <!--This is where header will go-->
-    <header>
-        <div class="header-container">
-            <iframe class="responsive-iframe" src="_includes/header.html" title="header"></iframe>
-        </div>
-    </header>
+    <div id="header"></div>
     <!--This is the main content block-->
     <div class="content">
         <H1>
@@ -21,7 +25,5 @@
         </H1>
     </div>
     <!--This is where footer will go-->
-    <footer>
-        <iframe src="_includes/footer.html" title="footer" height="171" width="100%"></iframe>
-    </footer>
+    <div id="footer"></div>
 </html>
