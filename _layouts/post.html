@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--For title, page config basics, and links to stylesheets and scripts-->
+        <Title>{{ page.title }}</Title>
+        <!--Boilerplate sclaing with device text from w3-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Fetches Stylesheet-->
+        <link rel="stylesheet" type="text/css" href="../_includes\style.css">
+    </head>
+    <header>
+        <!--Jekly include for header-->
+        {% include header.html %}
+    </header>
+    <div class="content">
+        <section>
+            {{ content }}
+        </section>
+    </div>
+    <footer>
+        <!--Jekly include for footer-->
+        {% include footer.html %}
+    </footer>
+</html>
