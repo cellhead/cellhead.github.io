@@ -1,6 +1,7 @@
 :root {
   /*Custom variables and metadata set*/
 	--cohost-orange: #ffab5c;
+  --testcolor: #5c5c5c;
   }
 *{
     box-sizing: border-box;
