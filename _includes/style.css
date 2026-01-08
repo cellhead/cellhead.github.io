@@ -1,13 +1,17 @@
 :root {
   /*Custom variables and metadata set*/
-	--cohost-orange: #ffab5c;
+	--cohost-purple: #83254f;
+  --cohost-orange: #ffab5c;
+  --cohost-cream: #fff9f2;
+  --cohost-darkgray: #191919;
   --testcolor: #5c5c5c;
+  --color: var(--cohost-darkgray);
   }
 *{
     box-sizing: border-box;
 }
 body{
-    background-color: #191919;
+    background-color: var(--color);
     color: #fff9f2;
     font-family: 'Trebuchet MS', sans-serif;
     margin: 0;
