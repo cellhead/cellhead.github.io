@@ -72,10 +72,6 @@ body{
     display: inline-block;
     text-decoration: none;
     color: var(--text-light);
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
   }
 Iframe{
     border: 0;
