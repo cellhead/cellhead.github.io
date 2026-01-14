@@ -6,18 +6,34 @@
   --cohost-darkgray: #191919;
   --testcolor: #5c5c5c;
   --color: var(--cohost-darkgray);
+    /* CSS HEX */ 
+    --smoky-rose: #7c606bff;--petal-pink: #c46baeff;--pink-carnation: #eb7bc0ff;--pink-mist: #eda4bdff;--powder-petal: #eed5c2ff;
+    /* CSS HEX */ 
+    --jet-black: #292f36ff; --strong-cyan: #4ecdc4ff; --white: #ffffffff; --grapefruit-pink: #ff6b6bff; --white-2: #ffffffff;
+    /* CSS HEX */ 
+    --charcoal-brown: #363732ff; --sky-aqua: #53d8fbff; --maya-blue: #66c3ffff; --alice-blue: #dce1e9ff; --soft-blossom: #d4afb9ff;
+    /* CSS HEX */ 
+    --atomic-tangerine: #ff6b35ff; --peach-glow: #f7c59fff; --beige: #efefd0ff; --steel-azure: #004e89ff; --baltic-blue: #1a659eff;
+  /* used vars */
+  --background: var(--alice-blue);
+  --foreground: ;
+  --text-on-dark: var(--cohost-cream);
+  --text-on-light: var(--cohost-darkgray);
+  --focus: ;
+  --accent: ;
+  @import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=swap');
   }
 *{
     box-sizing: border-box;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
 }
 body{
-    background-color: var(--color);
-    color: #fff9f2;
-    font-family: 'Trebuchet MS', sans-serif;
+    background-color: var(--background);
+    color: var(--text-on-light);
     margin: 0;
 }
 .header {
-    background-color: #83254f;
+    background-color: var(--strong-cyan);
     text-align: center;
     color: #fff9f2;
     padding: 1vmin;
@@ -38,19 +54,19 @@ body{
     padding: 14px 20px;
   }
 .content{
-    color: #fff9f2;
+    color: var(--text-on-light);
     text-align: center;
     padding: 10px;
   }
 .footer{
-    /* background-color: var(--cohost-orange); */
+    background-color: var(--jet-black);
     text-align: center;
     padding: 10px;
   }
 .footer a{
     display: inline-block;
     text-decoration: none;
-    color: #fff9f2;
+    color: var(--text-on-dark);
   }
 Iframe{
     border: 0;
@@ -75,6 +91,8 @@ Iframe{
 }
 .itemcontainer{
   color: #fff9f2;
+  border: 5px;
+  border-color: var(--grapefruit-pink);
   padding-top: 2vmin;
   padding-bottom: 1vmin;
 }
