@@ -58,8 +58,11 @@ body{
 .content{
     color: var(--text-dark);
     text-align: center;
-    margin: 10vmax;
+    margin: 5vmin;
   }
+.p{
+  margin: 10vmax;
+}
 .footer{
     background-color: var(--jet-black);
     text-align: center;
