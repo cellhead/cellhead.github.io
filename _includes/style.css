@@ -34,8 +34,8 @@ body{
 }
 .header {
     background-color: var(--alice-blue);
+    color: var(--jet-black);
     text-align: center;
-    color: var(--text-dark);
     padding: 1vmin;
   }
 .topnav{
