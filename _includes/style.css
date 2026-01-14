@@ -58,7 +58,7 @@ body{
 .content{
     color: var(--text-dark);
     text-align: center;
-    margin: 5vmin;
+    margin: 2vmin;
   }
 .p{
   margin: 10vmax;
