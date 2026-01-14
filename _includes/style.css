@@ -33,9 +33,9 @@ body{
     margin: 0;
 }
 .header {
-    background-color: var(--strong-cyan);
+    background-color: var(--grapefruit-pink);
     text-align: center;
-    color: #fff9f2;
+    color: var(--text-on-light);
     padding: 1vmin;
   }
 .topnav{
@@ -61,7 +61,7 @@ body{
 .footer{
     background-color: var(--jet-black);
     text-align: center;
-    padding: 10px;
+    padding: 1vmin;
   }
 .footer a{
     display: inline-block;
@@ -90,7 +90,7 @@ Iframe{
   Border: 0;
 }
 .itemcontainer{
-  color: #fff9f2;
+  color: var(--text-on-light);
   border: 5px;
   border-color: var(--grapefruit-pink);
   padding-top: 2vmin;
