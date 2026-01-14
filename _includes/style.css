@@ -80,8 +80,8 @@ Iframe{
   max-width: 1200px;
   margin: auto;
   overflow: hidden;
-  border: 5px;
-  border-color: var(--grapefruit-pink);
+  outline: 10px;
+  outline-color: var(--focus);
 }
 .responsive-iframe {
   position: absolute;
